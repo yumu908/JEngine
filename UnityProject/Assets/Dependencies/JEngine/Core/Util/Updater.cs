@@ -66,6 +66,7 @@ namespace JEngine.Core
                 return;
             }
 
+            Debug.Log(Application.persistentDataPath);
             _instance = this;
             DontDestroyOnLoad(gameObject);
         }

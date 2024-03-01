@@ -21,3 +21,6 @@ UnityProject/Build/*
 UnityProject/HotUpdateScripts/.idea/*
 UnityProject/Assets/JEngine.proj
 UnityProject/Assets/JEngine.proj.meta
+UnityProject/.vs/
+UnityProject/.vsconfig
+UnityProject/UserSettings/Layouts/

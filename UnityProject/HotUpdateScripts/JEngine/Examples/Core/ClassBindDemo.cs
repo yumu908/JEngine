@@ -57,6 +57,13 @@ namespace JEngine.Examples
             //GameObjectField1.SetActive(!GameObjectField1.activeSelf);
             Log.Print($"[ClassBindDemo1] a2 is null? {a2 is null}");
         }
+
+
+        public override void End()
+        {
+            //anything
+            Log.Print("Good bye from ClassBindDemo1");
+        }
     }
 
     public class ClassBindDemo2 : MonoBehaviour

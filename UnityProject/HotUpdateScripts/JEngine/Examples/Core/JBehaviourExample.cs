@@ -60,7 +60,7 @@ namespace JEngine.Examples
             OnFrameMode.onValueChanged.AddListener(on =>
             {
                 FrameMode = on;
-                DescText.text = on ? "帧/循环" : "毫秒/循环";
+                DescText.text = on ? "帧12/循环" : "毫秒12/循环";
             });
         }
 
@@ -72,8 +72,9 @@ namespace JEngine.Examples
             //Change the frequency of loop
             FrameMode = OnFrameMode.isOn;//Don't loop in frame
             ParseFrequency(FrequencyNumber.text);
-            DescText.text = FrameMode ? "帧/循环" : "毫秒/循环";
+            DescText.text = FrameMode ? "帧12/循环" : "毫秒12/循环";
             i = 0;
+            Log.Print("JBehaviour Example Run");
         }
 
         /// <summary>
